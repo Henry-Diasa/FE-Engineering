@@ -1,0 +1,7 @@
+/* autoprefixer.github.io */
+:fullscreen {
+}
+
+.content {
+  user-select: none;
+}

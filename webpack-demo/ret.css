@@ -1,0 +1,16 @@
+/* autoprefixer.github.io */
+:-webkit-full-screen {
+}
+:-ms-fullscreen {
+}
+:fullscreen {
+}
+
+.content {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy90ZXN0LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSwyQkFBMkI7QUFDM0I7QUFDQTtBQURBO0FBQ0E7QUFEQTtBQUNBOztBQUVBO0VBQ0UseUJBQWlCO0tBQWpCLHNCQUFpQjtNQUFqQixxQkFBaUI7VUFBakIsaUJBQWlCO0FBQ25CIiwiZmlsZSI6InJldC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBhdXRvcHJlZml4ZXIuZ2l0aHViLmlvICovXG46ZnVsbHNjcmVlbiB7XG59XG5cbi5jb250ZW50IHtcbiAgdXNlci1zZWxlY3Q6IG5vbmU7XG59XG4iXX0= */
