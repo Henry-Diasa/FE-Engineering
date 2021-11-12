@@ -1,13 +1,15 @@
+@import "./test.css";
+
 body {
   background: red;
   color: #12345678
 }
 
 /* autoprefixer.github.io */
-:fullscreen {
+/* :fullscreen {
 }
 
 .content {
   user-select: none;
   transition: all 1s ease;
-}
+} */

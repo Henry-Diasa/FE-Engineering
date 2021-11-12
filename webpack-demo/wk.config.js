@@ -11,7 +11,12 @@ module.exports = {
         test: /\.css$/,
         use: [
           "style-loader",
-          "css-loader",
+          {
+            loader: "css-loader",
+            options: {
+              "importLoaders": 1 // @import的文件还会被后面的loader处理 1取决于后面还有几个loader
+            }
+          },
           "postcss-loader",
           // {
           //   loader: "postcss-loader",
