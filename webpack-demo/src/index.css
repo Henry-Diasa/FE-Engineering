@@ -4,7 +4,9 @@ body {
   background: red;
   color: #12345678
 }
-
+.bg-image {
+  background-image: url('./aaa.png');
+}
 /* autoprefixer.github.io */
 /* :fullscreen {
 }

@@ -14,8 +14,8 @@ module.exports = {
           {
             loader: "css-loader",
             options: {
-              "importLoaders": 1 // @import的文件还会被后面的loader处理 1取决于后面还有几个loader
-            }
+              importLoaders: 1, // @import的文件还会被后面的loader处理 1取决于后面还有几个loader
+            },
           },
           "postcss-loader",
           // {
@@ -41,6 +41,20 @@ module.exports = {
       {
         test: /\.less$/,
         use: ["style-loader", "css-loader", "postcss-loader", "less-loader"],
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif|svg)$/,
+        use: [
+          {
+            loader: "url-loader",
+            options: {
+              name: "[name].[hash:6].[ext]",
+              limit: 8192,
+              esModule: false
+            },
+          },
+        ],
+        type: "javascript/auto"
       },
     ],
   },

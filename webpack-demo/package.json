@@ -16,12 +16,14 @@
   "description": "",
   "devDependencies": {
     "autoprefixer": "^10.4.0",
+    "file-loader": "^6.2.0",
     "less": "^4.1.2",
     "less-loader": "^10.2.0",
     "postcss": "^8.3.11",
     "postcss-cli": "^9.0.2",
     "postcss-loader": "^6.2.0",
     "postcss-preset-env": "^6.7.0",
-    "style-loader": "^3.3.1"
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1"
   }
 }
