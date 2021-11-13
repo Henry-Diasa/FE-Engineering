@@ -2,6 +2,7 @@ const sum = require("./sum");
 import "./test.js"
 import "./index.css";
 import "./a.less";
+import "./font/iconfont.css"
 sum(1, 2);
 
 const divEl = document.createElement('div')
@@ -19,3 +20,9 @@ div2.className = 'bg-image'
 div2.style.backgroundColor = "blue"
 document.body.appendChild(divEl)
 document.body.appendChild(div2)
+
+
+const iEl = document.createElement('i')
+iEl.className = "iconfont icon-banquan"
+
+document.body.appendChild(iEl)
